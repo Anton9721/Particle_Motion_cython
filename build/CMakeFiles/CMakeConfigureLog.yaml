@@ -24,9 +24,9 @@ events:
       The output was:
       0
       Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
-      Сборка начата 10.12.2024 15:16:20.
+      Сборка начата 10.12.2024 16:10:51.
       
-      Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
@@ -42,13 +42,13 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         "pwsh.exe" не является внутренней или внешней
         командой, исполняемой программой или пакетным файлом.
-        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
-        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -56,13 +56,13 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.64
+      Прошло времени 00:00:00.59
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -70,7 +70,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
+        C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -88,9 +88,9 @@ events:
       The output was:
       0
       Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
-      Сборка начата 10.12.2024 15:16:21.
+      Сборка начата 10.12.2024 16:10:52.
       
-      Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
@@ -106,13 +106,13 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         "pwsh.exe" не является внутренней или внешней
         командой, исполняемой программой или пакетным файлом.
-        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
-        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -120,13 +120,13 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.62
+      Прошло времени 00:00:00.65
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -134,7 +134,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -145,8 +145,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-hqyd1k"
-      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-hqyd1k"
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-yqustf"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-yqustf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -155,43 +155,43 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-hqyd1k'
+        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-yqustf'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9bc37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4134c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
-        Сборка начата 10.12.2024 15:16:22.
+        Сборка начата 10.12.2024 16:10:53.
         
-        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqyd1k\\cmTC_9bc37.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqustf\\cmTC_4134c.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_9bc37.dir\\Debug\\".
+          Создание каталога "cmTC_4134c.dir\\Debug\\".
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqyd1k\\Debug\\".
-          Создание каталога "cmTC_9bc37.dir\\Debug\\cmTC_9bc37.tlog\\".
+          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqustf\\Debug\\".
+          Создание каталога "cmTC_4134c.dir\\Debug\\cmTC_4134c.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_9bc37.dir\\Debug\\cmTC_9bc37.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_9bc37.dir\\Debug\\cmTC_9bc37.tlog\\unsuccessfulbuild".
+          Создание "cmTC_4134c.dir\\Debug\\cmTC_4134c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_4134c.dir\\Debug\\cmTC_4134c.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bc37.dir\\Debug\\\\" /Fd"cmTC_9bc37.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4134c.dir\\Debug\\\\" /Fd"cmTC_4134c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33130 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bc37.dir\\Debug\\\\" /Fd"cmTC_9bc37.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4134c.dir\\Debug\\\\" /Fd"cmTC_4134c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqyd1k\\Debug\\cmTC_9bc37.exe" /INCREMENTAL /ILK:"cmTC_9bc37.dir\\Debug\\cmTC_9bc37.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-hqyd1k/Debug/cmTC_9bc37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-hqyd1k/Debug/cmTC_9bc37.lib" /MACHINE:X64  /machine:x64 cmTC_9bc37.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_9bc37.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqyd1k\\Debug\\cmTC_9bc37.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqustf\\Debug\\cmTC_4134c.exe" /INCREMENTAL /ILK:"cmTC_4134c.dir\\Debug\\cmTC_4134c.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-yqustf/Debug/cmTC_4134c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-yqustf/Debug/cmTC_4134c.lib" /MACHINE:X64  /machine:x64 cmTC_4134c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4134c.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqustf\\Debug\\cmTC_4134c.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqyd1k\\Debug\\cmTC_9bc37.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_9bc37.dir\\Debug\\cmTC_9bc37.tlog\\cmTC_9bc37.write.1u.tlog" "cmTC_9bc37.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqustf\\Debug\\cmTC_4134c.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4134c.dir\\Debug\\cmTC_4134c.tlog\\cmTC_4134c.write.1u.tlog" "cmTC_4134c.dir\\Debug\\vcpkg.applocal.log"
           "pwsh.exe" не является внутренней или внешней
           командой, исполняемой программой или пакетным файлом.
-          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqyd1k\\Debug\\cmTC_9bc37.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_9bc37.dir\\Debug\\cmTC_9bc37.tlog\\cmTC_9bc37.write.1u.tlog" "cmTC_9bc37.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqyd1k\\Debug\\cmTC_9bc37.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_9bc37.dir\\Debug\\cmTC_9bc37.tlog\\cmTC_9bc37.write.1u.tlog" "cmTC_9bc37.dir\\Debug\\vcpkg.applocal.log"
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqustf\\Debug\\cmTC_4134c.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4134c.dir\\Debug\\cmTC_4134c.tlog\\cmTC_4134c.write.1u.tlog" "cmTC_4134c.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqustf\\Debug\\cmTC_4134c.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4134c.dir\\Debug\\cmTC_4134c.tlog\\cmTC_4134c.write.1u.tlog" "cmTC_4134c.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Файл "cmTC_9bc37.dir\\Debug\\cmTC_9bc37.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_9bc37.dir\\Debug\\cmTC_9bc37.tlog\\cmTC_9bc37.lastbuildstate".
-        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqyd1k\\cmTC_9bc37.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_4134c.dir\\Debug\\cmTC_4134c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_4134c.dir\\Debug\\cmTC_4134c.tlog\\cmTC_4134c.lastbuildstate".
+        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yqustf\\cmTC_4134c.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
@@ -237,8 +237,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-dy5177"
-      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-dy5177"
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8zi76e"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8zi76e"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -248,49 +248,49 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-dy5177'
+        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8zi76e'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe9a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d311f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
-        Сборка начата 10.12.2024 15:16:22.
+        Сборка начата 10.12.2024 16:10:54.
         
-        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy5177\\cmTC_fe9a0.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zi76e\\cmTC_d311f.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_fe9a0.dir\\Debug\\".
+          Создание каталога "cmTC_d311f.dir\\Debug\\".
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy5177\\Debug\\".
-          Создание каталога "cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.tlog\\".
+          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zi76e\\Debug\\".
+          Создание каталога "cmTC_d311f.dir\\Debug\\cmTC_d311f.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.tlog\\unsuccessfulbuild".
+          Создание "cmTC_d311f.dir\\Debug\\cmTC_d311f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_d311f.dir\\Debug\\cmTC_d311f.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe9a0.dir\\Debug\\\\" /Fd"cmTC_fe9a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d311f.dir\\Debug\\\\" /Fd"cmTC_d311f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33130 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe9a0.dir\\Debug\\\\" /Fd"cmTC_fe9a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d311f.dir\\Debug\\\\" /Fd"cmTC_d311f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy5177\\Debug\\cmTC_fe9a0.exe" /INCREMENTAL /ILK:"cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-dy5177/Debug/cmTC_fe9a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-dy5177/Debug/cmTC_fe9a0.lib" /MACHINE:X64  /machine:x64 cmTC_fe9a0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_fe9a0.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy5177\\Debug\\cmTC_fe9a0.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zi76e\\Debug\\cmTC_d311f.exe" /INCREMENTAL /ILK:"cmTC_d311f.dir\\Debug\\cmTC_d311f.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8zi76e/Debug/cmTC_d311f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8zi76e/Debug/cmTC_d311f.lib" /MACHINE:X64  /machine:x64 cmTC_d311f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d311f.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zi76e\\Debug\\cmTC_d311f.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy5177\\Debug\\cmTC_fe9a0.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.tlog\\cmTC_fe9a0.write.1u.tlog" "cmTC_fe9a0.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zi76e\\Debug\\cmTC_d311f.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d311f.dir\\Debug\\cmTC_d311f.tlog\\cmTC_d311f.write.1u.tlog" "cmTC_d311f.dir\\Debug\\vcpkg.applocal.log"
           "pwsh.exe" не является внутренней или внешней
           командой, исполняемой программой или пакетным файлом.
-          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy5177\\Debug\\cmTC_fe9a0.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.tlog\\cmTC_fe9a0.write.1u.tlog" "cmTC_fe9a0.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy5177\\Debug\\cmTC_fe9a0.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.tlog\\cmTC_fe9a0.write.1u.tlog" "cmTC_fe9a0.dir\\Debug\\vcpkg.applocal.log"
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zi76e\\Debug\\cmTC_d311f.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d311f.dir\\Debug\\cmTC_d311f.tlog\\cmTC_d311f.write.1u.tlog" "cmTC_d311f.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zi76e\\Debug\\cmTC_d311f.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d311f.dir\\Debug\\cmTC_d311f.tlog\\cmTC_d311f.write.1u.tlog" "cmTC_d311f.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Файл "cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_fe9a0.dir\\Debug\\cmTC_fe9a0.tlog\\cmTC_fe9a0.lastbuildstate".
-        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dy5177\\cmTC_fe9a0.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_d311f.dir\\Debug\\cmTC_d311f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_d311f.dir\\Debug\\cmTC_d311f.tlog\\cmTC_d311f.lastbuildstate".
+        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8zi76e\\cmTC_d311f.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.60
+        Прошло времени 00:00:00.63
         
       exitCode: 0
   -
@@ -329,8 +329,8 @@ events:
       - "CMakeLists.txt:13 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-64i9u5"
-      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-64i9u5"
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8qlzz3"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8qlzz3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -339,43 +339,169 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_openmp"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-64i9u5'
+        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8qlzz3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_26f39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_298b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
-        Сборка начата 10.12.2024 15:16:23.
+        Сборка начата 10.12.2024 16:10:54.
         
-        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\cmTC_26f39.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\cmTC_298b8.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_26f39.dir\\Debug\\".
+          Создание каталога "cmTC_298b8.dir\\Debug\\".
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\Debug\\".
-          Создание каталога "cmTC_26f39.dir\\Debug\\cmTC_26f39.tlog\\".
+          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\Debug\\".
+          Создание каталога "cmTC_298b8.dir\\Debug\\cmTC_298b8.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_26f39.dir\\Debug\\cmTC_26f39.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_26f39.dir\\Debug\\cmTC_26f39.tlog\\unsuccessfulbuild".
+          Создание "cmTC_298b8.dir\\Debug\\cmTC_298b8.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_298b8.dir\\Debug\\cmTC_298b8.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_26f39.dir\\Debug\\\\" /Fd"cmTC_26f39.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\OpenMPTryFlag.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_298b8.dir\\Debug\\\\" /Fd"cmTC_298b8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\OpenMPTryFlag.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33130 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_26f39.dir\\Debug\\\\" /Fd"cmTC_26f39.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\OpenMPTryFlag.c"
+          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_298b8.dir\\Debug\\\\" /Fd"cmTC_298b8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\OpenMPTryFlag.c"
           OpenMPTryFlag.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\Debug\\cmTC_26f39.exe" /INCREMENTAL /ILK:"cmTC_26f39.dir\\Debug\\cmTC_26f39.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-64i9u5/Debug/cmTC_26f39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-64i9u5/Debug/cmTC_26f39.lib" /MACHINE:X64  /machine:x64 cmTC_26f39.dir\\Debug\\OpenMPTryFlag.obj
-          cmTC_26f39.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\Debug\\cmTC_26f39.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\Debug\\cmTC_298b8.exe" /INCREMENTAL /ILK:"cmTC_298b8.dir\\Debug\\cmTC_298b8.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8qlzz3/Debug/cmTC_298b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-8qlzz3/Debug/cmTC_298b8.lib" /MACHINE:X64  /machine:x64 cmTC_298b8.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_298b8.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\Debug\\cmTC_298b8.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\Debug\\cmTC_26f39.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_26f39.dir\\Debug\\cmTC_26f39.tlog\\cmTC_26f39.write.1u.tlog" "cmTC_26f39.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\Debug\\cmTC_298b8.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_298b8.dir\\Debug\\cmTC_298b8.tlog\\cmTC_298b8.write.1u.tlog" "cmTC_298b8.dir\\Debug\\vcpkg.applocal.log"
           "pwsh.exe" не является внутренней или внешней
           командой, исполняемой программой или пакетным файлом.
-          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\Debug\\cmTC_26f39.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_26f39.dir\\Debug\\cmTC_26f39.tlog\\cmTC_26f39.write.1u.tlog" "cmTC_26f39.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\Debug\\cmTC_26f39.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_26f39.dir\\Debug\\cmTC_26f39.tlog\\cmTC_26f39.write.1u.tlog" "cmTC_26f39.dir\\Debug\\vcpkg.applocal.log"
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\Debug\\cmTC_298b8.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_298b8.dir\\Debug\\cmTC_298b8.tlog\\cmTC_298b8.write.1u.tlog" "cmTC_298b8.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\Debug\\cmTC_298b8.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_298b8.dir\\Debug\\cmTC_298b8.tlog\\cmTC_298b8.write.1u.tlog" "cmTC_298b8.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Файл "cmTC_26f39.dir\\Debug\\cmTC_26f39.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_26f39.dir\\Debug\\cmTC_26f39.tlog\\cmTC_26f39.lastbuildstate".
-        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64i9u5\\cmTC_26f39.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_298b8.dir\\Debug\\cmTC_298b8.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_298b8.dir\\Debug\\cmTC_298b8.tlog\\cmTC_298b8.lastbuildstate".
+        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qlzz3\\cmTC_298b8.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-m4a6au"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-m4a6au"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-m4a6au'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ecc22.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 10.12.2024 16:10:55.
+        
+        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\cmTC_ecc22.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ecc22.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\Debug\\".
+          Создание каталога "cmTC_ecc22.dir\\Debug\\cmTC_ecc22.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ecc22.dir\\Debug\\cmTC_ecc22.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ecc22.dir\\Debug\\cmTC_ecc22.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c++20 /Fo"cmTC_ecc22.dir\\Debug\\\\" /Fd"cmTC_ecc22.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\OpenMPTryFlag.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33130 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c++20 /Fo"cmTC_ecc22.dir\\Debug\\\\" /Fd"cmTC_ecc22.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\Debug\\cmTC_ecc22.exe" /INCREMENTAL /ILK:"cmTC_ecc22.dir\\Debug\\cmTC_ecc22.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-m4a6au/Debug/cmTC_ecc22.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-m4a6au/Debug/cmTC_ecc22.lib" /MACHINE:X64  /machine:x64 cmTC_ecc22.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_ecc22.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\Debug\\cmTC_ecc22.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\Debug\\cmTC_ecc22.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ecc22.dir\\Debug\\cmTC_ecc22.tlog\\cmTC_ecc22.write.1u.tlog" "cmTC_ecc22.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\Debug\\cmTC_ecc22.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ecc22.dir\\Debug\\cmTC_ecc22.tlog\\cmTC_ecc22.write.1u.tlog" "cmTC_ecc22.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\Debug\\cmTC_ecc22.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ecc22.dir\\Debug\\cmTC_ecc22.tlog\\cmTC_ecc22.write.1u.tlog" "cmTC_ecc22.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_ecc22.dir\\Debug\\cmTC_ecc22.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_ecc22.dir\\Debug\\cmTC_ecc22.tlog\\cmTC_ecc22.lastbuildstate".
+        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m4a6au\\cmTC_ecc22.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-prf1ya"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-prf1ya"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-prf1ya'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cb66c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 10.12.2024 16:10:56.
+        
+        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\cmTC_cb66c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_cb66c.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\Debug\\".
+          Создание каталога "cmTC_cb66c.dir\\Debug\\cmTC_cb66c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_cb66c.dir\\Debug\\cmTC_cb66c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_cb66c.dir\\Debug\\cmTC_cb66c.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_cb66c.dir\\Debug\\\\" /Fd"cmTC_cb66c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\OpenMPCheckVersion.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33130 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_cb66c.dir\\Debug\\\\" /Fd"cmTC_cb66c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\Debug\\cmTC_cb66c.exe" /INCREMENTAL /ILK:"cmTC_cb66c.dir\\Debug\\cmTC_cb66c.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-prf1ya/Debug/cmTC_cb66c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-prf1ya/Debug/cmTC_cb66c.lib" /MACHINE:X64  /machine:x64 cmTC_cb66c.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_cb66c.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\Debug\\cmTC_cb66c.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\Debug\\cmTC_cb66c.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cb66c.dir\\Debug\\cmTC_cb66c.tlog\\cmTC_cb66c.write.1u.tlog" "cmTC_cb66c.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" не является внутренней или внешней
+          командой, исполняемой программой или пакетным файлом.
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\Debug\\cmTC_cb66c.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cb66c.dir\\Debug\\cmTC_cb66c.tlog\\cmTC_cb66c.write.1u.tlog" "cmTC_cb66c.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\Debug\\cmTC_cb66c.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cb66c.dir\\Debug\\cmTC_cb66c.tlog\\cmTC_cb66c.write.1u.tlog" "cmTC_cb66c.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_cb66c.dir\\Debug\\cmTC_cb66c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_cb66c.dir\\Debug\\cmTC_cb66c.tlog\\cmTC_cb66c.lastbuildstate".
+        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-prf1ya\\cmTC_cb66c.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
@@ -387,139 +513,13 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:238 (try_compile)"
-      - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:13 (find_package)"
-    description: "Detecting CXX OpenMP compiler info"
-    directories:
-      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-8urew7"
-      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-8urew7"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-8urew7'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_679dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
-        Сборка начата 10.12.2024 15:16:24.
-        
-        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\cmTC_679dc.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "cmTC_679dc.dir\\Debug\\".
-          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\Debug\\".
-          Создание каталога "cmTC_679dc.dir\\Debug\\cmTC_679dc.tlog\\".
-        InitializeBuildStatus:
-          Создание "cmTC_679dc.dir\\Debug\\cmTC_679dc.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_679dc.dir\\Debug\\cmTC_679dc.tlog\\unsuccessfulbuild".
-        VcpkgTripletSelection:
-          Using triplet "x64-windows" from "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\"
-          Using normalized configuration "Debug"
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c++20 /Fo"cmTC_679dc.dir\\Debug\\\\" /Fd"cmTC_679dc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\OpenMPTryFlag.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33130 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c++20 /Fo"cmTC_679dc.dir\\Debug\\\\" /Fd"cmTC_679dc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\OpenMPTryFlag.cpp"
-          OpenMPTryFlag.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\Debug\\cmTC_679dc.exe" /INCREMENTAL /ILK:"cmTC_679dc.dir\\Debug\\cmTC_679dc.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-8urew7/Debug/cmTC_679dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-8urew7/Debug/cmTC_679dc.lib" /MACHINE:X64  /machine:x64 cmTC_679dc.dir\\Debug\\OpenMPTryFlag.obj
-          cmTC_679dc.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\Debug\\cmTC_679dc.exe
-        AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\Debug\\cmTC_679dc.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_679dc.dir\\Debug\\cmTC_679dc.tlog\\cmTC_679dc.write.1u.tlog" "cmTC_679dc.dir\\Debug\\vcpkg.applocal.log"
-          "pwsh.exe" не является внутренней или внешней
-          командой, исполняемой программой или пакетным файлом.
-          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\Debug\\cmTC_679dc.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_679dc.dir\\Debug\\cmTC_679dc.tlog\\cmTC_679dc.write.1u.tlog" "cmTC_679dc.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\Debug\\cmTC_679dc.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_679dc.dir\\Debug\\cmTC_679dc.tlog\\cmTC_679dc.write.1u.tlog" "cmTC_679dc.dir\\Debug\\vcpkg.applocal.log"
-        FinalizeBuildStatus:
-          Файл "cmTC_679dc.dir\\Debug\\cmTC_679dc.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_679dc.dir\\Debug\\cmTC_679dc.tlog\\cmTC_679dc.lastbuildstate".
-        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8urew7\\cmTC_679dc.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:00.61
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:440 (try_compile)"
-      - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
-      - "CMakeLists.txt:13 (find_package)"
-    description: "Detecting C OpenMP version"
-    directories:
-      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-xz1wi5"
-      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-xz1wi5"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "OpenMP_SPECTEST_C_"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-xz1wi5'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ab474.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
-        Сборка начата 10.12.2024 15:16:25.
-        
-        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\cmTC_ab474.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "cmTC_ab474.dir\\Debug\\".
-          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\Debug\\".
-          Создание каталога "cmTC_ab474.dir\\Debug\\cmTC_ab474.tlog\\".
-        InitializeBuildStatus:
-          Создание "cmTC_ab474.dir\\Debug\\cmTC_ab474.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_ab474.dir\\Debug\\cmTC_ab474.tlog\\unsuccessfulbuild".
-        VcpkgTripletSelection:
-          Using triplet "x64-windows" from "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\"
-          Using normalized configuration "Debug"
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_ab474.dir\\Debug\\\\" /Fd"cmTC_ab474.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\OpenMPCheckVersion.c"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33130 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_ab474.dir\\Debug\\\\" /Fd"cmTC_ab474.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\OpenMPCheckVersion.c"
-          OpenMPCheckVersion.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\Debug\\cmTC_ab474.exe" /INCREMENTAL /ILK:"cmTC_ab474.dir\\Debug\\cmTC_ab474.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-xz1wi5/Debug/cmTC_ab474.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-xz1wi5/Debug/cmTC_ab474.lib" /MACHINE:X64  /machine:x64 cmTC_ab474.dir\\Debug\\OpenMPCheckVersion.obj
-          cmTC_ab474.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\Debug\\cmTC_ab474.exe
-        AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\Debug\\cmTC_ab474.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ab474.dir\\Debug\\cmTC_ab474.tlog\\cmTC_ab474.write.1u.tlog" "cmTC_ab474.dir\\Debug\\vcpkg.applocal.log"
-          "pwsh.exe" не является внутренней или внешней
-          командой, исполняемой программой или пакетным файлом.
-          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\Debug\\cmTC_ab474.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ab474.dir\\Debug\\cmTC_ab474.tlog\\cmTC_ab474.write.1u.tlog" "cmTC_ab474.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\Debug\\cmTC_ab474.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ab474.dir\\Debug\\cmTC_ab474.tlog\\cmTC_ab474.write.1u.tlog" "cmTC_ab474.dir\\Debug\\vcpkg.applocal.log"
-        FinalizeBuildStatus:
-          Файл "cmTC_ab474.dir\\Debug\\cmTC_ab474.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_ab474.dir\\Debug\\cmTC_ab474.tlog\\cmTC_ab474.lastbuildstate".
-        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xz1wi5\\cmTC_ab474.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:00.61
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
       - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:440 (try_compile)"
       - "D:/CMake/share/cmake-3.30/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
       - "CMakeLists.txt:13 (find_package)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-lbzd6r"
-      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-lbzd6r"
+      source: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-b76eru"
+      binary: "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-b76eru"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -528,49 +528,49 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-lbzd6r'
+        Change Dir: 'C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-b76eru'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a0bda.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b8115.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
-        Сборка начата 10.12.2024 15:16:26.
+        Сборка начата 10.12.2024 16:10:57.
         
-        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\cmTC_a0bda.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\cmTC_b8115.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_a0bda.dir\\Debug\\".
+          Создание каталога "cmTC_b8115.dir\\Debug\\".
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\Debug\\".
-          Создание каталога "cmTC_a0bda.dir\\Debug\\cmTC_a0bda.tlog\\".
+          Создание каталога "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\Debug\\".
+          Создание каталога "cmTC_b8115.dir\\Debug\\cmTC_b8115.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_a0bda.dir\\Debug\\cmTC_a0bda.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_a0bda.dir\\Debug\\cmTC_a0bda.tlog\\unsuccessfulbuild".
+          Создание "cmTC_b8115.dir\\Debug\\cmTC_b8115.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_b8115.dir\\Debug\\cmTC_b8115.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c++20 /Fo"cmTC_a0bda.dir\\Debug\\\\" /Fd"cmTC_a0bda.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\OpenMPCheckVersion.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c++20 /Fo"cmTC_b8115.dir\\Debug\\\\" /Fd"cmTC_b8115.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\OpenMPCheckVersion.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33130 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c++20 /Fo"cmTC_a0bda.dir\\Debug\\\\" /Fd"cmTC_a0bda.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\OpenMPCheckVersion.cpp"
+          cl /c /I"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /std:c++20 /Fo"cmTC_b8115.dir\\Debug\\\\" /Fd"cmTC_b8115.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\OpenMPCheckVersion.cpp"
           OpenMPCheckVersion.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\Debug\\cmTC_a0bda.exe" /INCREMENTAL /ILK:"cmTC_a0bda.dir\\Debug\\cmTC_a0bda.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-lbzd6r/Debug/cmTC_a0bda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/CMakeScratch/TryCompile-lbzd6r/Debug/cmTC_a0bda.lib" /MACHINE:X64  /machine:x64 cmTC_a0bda.dir\\Debug\\OpenMPCheckVersion.obj
-          cmTC_a0bda.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\Debug\\cmTC_a0bda.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\Debug\\cmTC_b8115.exe" /INCREMENTAL /ILK:"cmTC_b8115.dir\\Debug\\cmTC_b8115.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-b76eru/Debug/cmTC_b8115.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/CMakeScratch/TryCompile-b76eru/Debug/cmTC_b8115.lib" /MACHINE:X64  /machine:x64 cmTC_b8115.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_b8115.vcxproj -> C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\Debug\\cmTC_b8115.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\Debug\\cmTC_a0bda.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a0bda.dir\\Debug\\cmTC_a0bda.tlog\\cmTC_a0bda.write.1u.tlog" "cmTC_a0bda.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\Debug\\cmTC_b8115.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b8115.dir\\Debug\\cmTC_b8115.tlog\\cmTC_b8115.write.1u.tlog" "cmTC_b8115.dir\\Debug\\vcpkg.applocal.log"
           "pwsh.exe" не является внутренней или внешней
           командой, исполняемой программой или пакетным файлом.
-          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\Debug\\cmTC_a0bda.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a0bda.dir\\Debug\\cmTC_a0bda.tlog\\cmTC_a0bda.write.1u.tlog" "cmTC_a0bda.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\Debug\\cmTC_a0bda.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a0bda.dir\\Debug\\cmTC_a0bda.tlog\\cmTC_a0bda.write.1u.tlog" "cmTC_a0bda.dir\\Debug\\vcpkg.applocal.log"
+          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\Debug\\cmTC_b8115.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b8115.dir\\Debug\\cmTC_b8115.tlog\\cmTC_b8115.write.1u.tlog" "cmTC_b8115.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Антон\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\Debug\\cmTC_b8115.exe" "C:\\Users\\Антон\\source\\repos\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b8115.dir\\Debug\\cmTC_b8115.tlog\\cmTC_b8115.write.1u.tlog" "cmTC_b8115.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Файл "cmTC_a0bda.dir\\Debug\\cmTC_a0bda.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_a0bda.dir\\Debug\\cmTC_a0bda.tlog\\cmTC_a0bda.lastbuildstate".
-        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\My_project cython\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbzd6r\\cmTC_a0bda.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_b8115.dir\\Debug\\cmTC_b8115.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_b8115.dir\\Debug\\cmTC_b8115.tlog\\cmTC_b8115.lastbuildstate".
+        Сборка проекта "C:\\Users\\Антон\\Desktop\\МИФИ\\4 курс\\Particle motion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b76eru\\cmTC_b8115.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.61
+        Прошло времени 00:00:00.64
         
       exitCode: 0
 ...

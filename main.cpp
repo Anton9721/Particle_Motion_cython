@@ -93,4 +93,7 @@ int main()
 // cd build
 // cmake ..
 // cmake --build .
+// cd..
+// python setup.py build_ext-- inplace
+
 //  .\Debug\ParticleMotion.exe

@@ -1,9 +1,9 @@
 # CMake generation dependency list for this directory.
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/CMakeLists.txt
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/3.30.5/CMakeCCompiler.cmake
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/3.30.5/CMakeRCCompiler.cmake
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/3.30.5/CMakeSystem.cmake
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/CMakeLists.txt
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/3.30.5/CMakeCCompiler.cmake
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/3.30.5/CMakeRCCompiler.cmake
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/3.30.5/CMakeSystem.cmake
 D:/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake
 D:/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake
 D:/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake

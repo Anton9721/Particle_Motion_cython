@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/library.lib"
+			"path" : "MinSizeRel/library.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -66,7 +66,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG /MD -std:c++20 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++20 -MD"
 				},
 				{
 					"backtrace" : 2,
@@ -84,7 +84,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/include"
+					"path" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/include"
 				}
 			],
 			"language" : "CXX",

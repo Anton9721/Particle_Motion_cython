@@ -11,7 +11,7 @@ cdef extern from "include/Library.hpp":
         vector[double] position, vector[double] velocity,
         double mass, double charge,
         vector[double] electric_field, vector[double] magnetic_field,
-        double time_start, double time_end, double dt
+        double time_start, double time_end, double dt, double omega_f, double e_initial_phase, double b_initial_phase
     )
 
     vector[double] spectrum(vector[double] time, vector[double] trajectory, 
@@ -48,7 +48,24 @@ def trajectory_array(solver_name: str, field_name: str,
                      position, velocity,
                      mass: float, charge: float,
                      electric_field, magnetic_field,
-                     time_start: float, time_end: float, dt: float):
+                     time_start: float, time_end: float, dt: float, omega_f = 1.0,
+                     e_initial_phase = 0.0, b_initial_phase = 0.0):
+
+
+    all_solvers = ['PusherEuler', 'RungeKutta4', 'PusherBoris', 'PusherBorisRR']
+    all_field = ['CrossEMField', 'GaussEMField', 'OscillatingEMField']
+
+    if (solver_name not in all_solvers):
+        print(f"Не существует метода решения {solver_name}. Проверьте правильность написания !")
+        print(f"Допустимые решатели: {all_solvers}")
+        return 0
+
+    if field_name not in all_field:
+        print(f"Не существует такого типа поля {solver_name}. Проверьте правильность написания !")
+        print(f"Допустимые поля: {all_field}")
+        return 0
+    
+
    
     if isinstance(position, list):
         position = np.array(position, dtype=np.float64)
@@ -78,7 +95,10 @@ def trajectory_array(solver_name: str, field_name: str,
         cpp_magnetic_field,
         time_start,
         time_end,
-        dt
+        dt, 
+        omega_f, 
+        e_initial_phase,
+        b_initial_phase
     )
 
     return vector_to_python_list(result_vector)

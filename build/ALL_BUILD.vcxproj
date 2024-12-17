@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5C3B558D-6D7D-34ED-A7C0-3B1E92C18443}</ProjectGuid>
+    <ProjectGuid>{4DB32480-904A-3528-93AD-839824B2F8B0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build" --check-stamp-file "C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/generate.stamp"
+D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build" --check-stamp-file "C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build" --check-stamp-file "C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/generate.stamp"
+D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build" --check-stamp-file "C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build" --check-stamp-file "C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/generate.stamp"
+D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build" --check-stamp-file "C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build" --check-stamp-file "C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/generate.stamp"
+D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build" --check-stamp-file "C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,26 +159,26 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\ZERO_CHECK.vcxproj">
-      <Project>{2B47FC59-7520-350F-8CE2-2D6D1FC6CCA1}</Project>
+    <ProjectReference Include="C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\ZERO_CHECK.vcxproj">
+      <Project>{8F862EF4-521B-3052-AA5F-F8EC3A41988F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\ParticleMotion.vcxproj">
-      <Project>{CF115CCA-F5BE-3B7C-8786-5FA3B2B66C71}</Project>
+    <ProjectReference Include="C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\ParticleMotion.vcxproj">
+      <Project>{97E8BBEE-FD0F-36FA-9CD6-836498E431C5}</Project>
       <Name>ParticleMotion</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Антон\Desktop\МИФИ\4 курс\My_project cython\build\library.vcxproj">
-      <Project>{CAF82AD6-B4C2-3669-841D-0A1C8F9322AB}</Project>
+    <ProjectReference Include="C:\Users\Антон\Desktop\МИФИ\4 курс\Particle motion\build\library.vcxproj">
+      <Project>{D44F521B-852C-3471-B33F-C8849FB1B8A5}</Project>
       <Name>library</Name>
     </ProjectReference>
   </ItemGroup>

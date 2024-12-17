@@ -20,6 +20,6 @@ add_library(library STATIC ${CPP_SOURCES})
 set(CMAKE_BUILD_TYPE Release) 
 target_compile_options(library PRIVATE /MD)
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MD")
-add_definitions(-D_ITERATOR_DEBUG_LEVEL=0)  # Для Release
+add_definitions(-D_ITERATOR_DEBUG_LEVEL=0)
 target_link_options(library PRIVATE /NODEFAULTLIB:MSVCRTD)
 

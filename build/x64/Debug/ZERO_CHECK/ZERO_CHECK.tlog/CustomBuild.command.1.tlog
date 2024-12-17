@@ -1,6 +1,6 @@
-^C:\USERS\АНТОН\DESKTOP\МИФИ\4 КУРС\MY_PROJECT CYTHON\BUILD\CMAKEFILES\69C95E963C5830F03899D5B2C89D75EA\GENERATE.STAMP.RULE
+^C:\USERS\АНТОН\DESKTOP\МИФИ\4 КУРС\PARTICLE MOTION\BUILD\CMAKEFILES\6BDD1976F468250A39C9E465D3A8DB13\GENERATE.STAMP.RULE
 setlocal
-D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/ParticleMotion.sln"
+D:\CMake\bin\cmake.exe "-SC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion" "-BC:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/ParticleMotion.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

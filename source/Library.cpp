@@ -3,12 +3,16 @@
 std::vector<double> find_trajectory(std::string solver_name, std::string field_name,
                                                  std::vector<double> position, std::vector<double> velocity, double mass, double charge,
                                                  std::vector<double> electric_field, std::vector<double> magnetic_field,
-                                                 double time_start, double time_end, double dt)
+                                                 double time_start, double time_end, double dt, double omega_f, double e_initial_phase, double b_initial_phase)
 {
     Vector3D pos(position[0], position[1], position[2]);
     Vector3D vel(velocity[0], velocity[1], velocity[2]);
     Vector3D e_field(electric_field[0], electric_field[1], electric_field[2]);
     Vector3D b_field(magnetic_field[0], magnetic_field[1], magnetic_field[2]);
+
+    // double omega_f = 1.0;
+    // double e_initial_phase = 0.0;
+    // double b_initial_phase = 0.0;
 
     int steps = int((time_end - time_start) / dt);
     double time = time_start;
@@ -21,6 +25,7 @@ std::vector<double> find_trajectory(std::string solver_name, std::string field_n
 
     WriterPyhton writer_trajectory;
 
+    // Перекрестное поле
     if (solver_name == "PusherEuler" && field_name == "CrossEMField")
     {
         PusherEuler solver;
@@ -37,43 +42,10 @@ std::vector<double> find_trajectory(std::string solver_name, std::string field_n
             time += dt;
         }
     }
-    else if (solver_name == "PusherEuler" && field_name == "GaussEMField")
-    {
-        PusherEuler solver;
-        GaussEMField em_field(e_field, b_field, time_start, time_end);
-        for (int i = 0; i < steps; ++i)
-        {
-            solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
-            std::vector<double> res = writer_trajectory.writer_numpy(std::span<Particle>(particles.data(), particles.size()), time);
-            for (const auto &member : res)
-            {
-                data_result.push_back(member);
-            }
-
-            time += dt;
-        }
-    }
-
     else if (solver_name == "RungeKutta4" && field_name == "CrossEMField")
     {
         RungeKutta4 solver;
         CrossEMField em_field(e_field, b_field);
-        for (int i = 0; i < steps; ++i)
-        {
-            solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
-            std::vector<double> res = writer_trajectory.writer_numpy(std::span<Particle>(particles.data(), particles.size()), time);
-            for (const auto &member : res)
-            {
-                data_result.push_back(member);
-            }
-
-            time += dt;
-        }
-    }
-    else if (solver_name == "RungeKutta4" && field_name == "GaussEMField")
-    {
-        RungeKutta4 solver;
-        GaussEMField em_field(e_field, b_field, time_start, time_end);
         for (int i = 0; i < steps; ++i)
         {
             solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
@@ -103,10 +75,10 @@ std::vector<double> find_trajectory(std::string solver_name, std::string field_n
             time += dt;
         }
     }
-    else if (solver_name == "PusherBoris" && field_name == "GaussEMField")
+    else if (solver_name == "PusherBorisRR" && field_name == "CrossEMField")
     {
-        PusherBoris solver;
-        GaussEMField em_field(e_field, b_field, time_start, time_end);
+        PusherBorisRR solver;
+        CrossEMField em_field(e_field, b_field);
         for (int i = 0; i < steps; ++i)
         {
             solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
@@ -120,10 +92,43 @@ std::vector<double> find_trajectory(std::string solver_name, std::string field_n
         }
     }
 
-    else if (solver_name == "PusherBorisRR" && field_name == "CrossEMField")
+    // Поле по Гауссу
+    else if (solver_name == "PusherEuler" && field_name == "GaussEMField")
     {
-        PusherBorisRR solver;
-        CrossEMField em_field(e_field, b_field);
+        PusherEuler solver;
+        GaussEMField em_field(e_field, b_field, time_start, time_end);
+        for (int i = 0; i < steps; ++i)
+        {
+            solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
+            std::vector<double> res = writer_trajectory.writer_numpy(std::span<Particle>(particles.data(), particles.size()), time);
+            for (const auto &member : res)
+            {
+                data_result.push_back(member);
+            }
+
+            time += dt;
+        }
+    }
+    else if (solver_name == "RungeKutta4" && field_name == "GaussEMField")
+    {
+        RungeKutta4 solver;
+        GaussEMField em_field(e_field, b_field, time_start, time_end);
+        for (int i = 0; i < steps; ++i)
+        {
+            solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
+            std::vector<double> res = writer_trajectory.writer_numpy(std::span<Particle>(particles.data(), particles.size()), time);
+            for (const auto &member : res)
+            {
+                data_result.push_back(member);
+            }
+
+            time += dt;
+        }
+    }
+    else if (solver_name == "PusherBoris" && field_name == "GaussEMField")
+    {
+        PusherBoris solver;
+        GaussEMField em_field(e_field, b_field, time_start, time_end);
         for (int i = 0; i < steps; ++i)
         {
             solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
@@ -148,11 +153,77 @@ std::vector<double> find_trajectory(std::string solver_name, std::string field_n
             {
                 data_result.push_back(member);
             }
-        
+
             time += dt;
         }
     }
-    // добавить ошибку
+
+    // Осциллирующее поле
+    else if (solver_name == "PusherEuler" && field_name == "OscillatingEMField")
+    {
+        PusherEuler solver;
+        OscillatingEMField em_field(e_field, b_field, omega_f, e_initial_phase, b_initial_phase);
+        for (int i = 0; i < steps; ++i)
+        {
+            solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
+            std::vector<double> res = writer_trajectory.writer_numpy(std::span<Particle>(particles.data(), particles.size()), time);
+            for (const auto &member : res)
+            {
+                data_result.push_back(member);
+            }
+
+            time += dt;
+        }
+    }
+
+    else if (solver_name == "RungeKutta4" && field_name == "OscillatingEMField")
+    {
+        RungeKutta4 solver;
+        OscillatingEMField em_field(e_field, b_field, omega_f, e_initial_phase, b_initial_phase);
+        for (int i = 0; i < steps; ++i)
+        {
+            solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
+            std::vector<double> res = writer_trajectory.writer_numpy(std::span<Particle>(particles.data(), particles.size()), time);
+            for (const auto &member : res)
+            {
+                data_result.push_back(member);
+            }
+
+            time += dt;
+        }
+    }
+    else if (solver_name == "PusherBoris" && field_name == "OscillatingEMField")
+    {
+        PusherBoris solver;
+        OscillatingEMField em_field(e_field, b_field, omega_f, e_initial_phase, b_initial_phase);
+        for (int i = 0; i < steps; ++i)
+        {
+            solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
+            std::vector<double> res = writer_trajectory.writer_numpy(std::span<Particle>(particles.data(), particles.size()), time);
+            for (const auto &member : res)
+            {
+                data_result.push_back(member);
+            }
+
+            time += dt;
+        }
+    }
+    else if (solver_name == "PusherBorisRR" && field_name == "OscillatingEMField")
+    {
+        PusherBorisRR solver;
+        OscillatingEMField em_field(e_field, b_field, omega_f, e_initial_phase, b_initial_phase);
+        for (int i = 0; i < steps; ++i)
+        {
+            solver.push(std::span<Particle>(particles.data(), particles.size()), em_field, time, dt);
+            std::vector<double> res = writer_trajectory.writer_numpy(std::span<Particle>(particles.data(), particles.size()), time);
+            for (const auto &member : res)
+            {
+                data_result.push_back(member);
+            }
+
+            time += dt;
+        }
+    }
     return data_result;
 }
 

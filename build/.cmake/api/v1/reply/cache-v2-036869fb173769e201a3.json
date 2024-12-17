@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build"
+			"value" : "c:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython"
+			"value" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1199,7 +1199,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython/build"
+			"value" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion/build"
 		},
 		{
 			"name" : "ParticleMotion_IS_TOP_LEVEL",
@@ -1223,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/My_project cython"
+			"value" : "C:/Users/\u0410\u043d\u0442\u043e\u043d/Desktop/\u041c\u0418\u0424\u0418/4 \u043a\u0443\u0440\u0441/Particle motion"
 		}
 	],
 	"kind" : "cache",

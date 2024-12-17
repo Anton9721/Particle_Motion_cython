@@ -1,4 +1,4 @@
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/ParticleMotion.dir
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/library.dir
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Антон/Desktop/МИФИ/4 курс/My_project cython/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/ParticleMotion.dir
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/library.dir
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Антон/Desktop/МИФИ/4 курс/Particle motion/build/CMakeFiles/ZERO_CHECK.dir
