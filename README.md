@@ -4,9 +4,14 @@
 2. Проверить, есть ли в окружении рабочая версия python и cython.
 
 3. В строке bash (или powershell) прописать команды:
+
 mkdir build
+
 cd build
 cmake ..
+
 cmake --build .
+
 cd..
+
 python setup.py build_ext-- inplace
