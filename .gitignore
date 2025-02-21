@@ -6,3 +6,8 @@ particle_motion.cpp
 particle_motion.cpython-312-x86_64-linux-gnu.so
 particle_motion.html
 
+
+# git add .
+# git commit -m "текст коммита"
+# git push origin main
+
